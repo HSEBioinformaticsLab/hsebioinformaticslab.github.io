@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #8ACE00;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #8ACE00;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Specific Sections */
+.intro {
+    text-align: center;
+}
+
+.news-feed article,
+.research-projects .project,
+.staff-members .staff-member,
+.datasets .dataset {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+}
+
+.news-feed h3,
+.research-projects h3,
+.staff-members h3,
+.datasets h3 {
+    margin-top: 0;
+}
