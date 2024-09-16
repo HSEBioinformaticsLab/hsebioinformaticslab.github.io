@@ -78,15 +78,18 @@ footer {
 }
 
 /* Staff Page Styles */
+/* ... existing styles ... */
+
+/* Staff Page Styles */
 .staff-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .staff-member {
-    width: 250px;
-    margin: 20px;
+    width: 30%; /* Adjusted to create three columns */
+    margin-bottom: 40px;
     text-align: center;
 }
 
@@ -99,7 +102,7 @@ footer {
 
 .staff-member h3 {
     margin-top: 10px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #8ACE00;
 }
 
@@ -115,4 +118,17 @@ footer {
 
 .staff-member a:hover {
     text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .staff-member {
+        width: 45%; /* Two columns on medium screens */
+    }
+}
+
+@media (max-width: 600px) {
+    .staff-member {
+        width: 100%; /* One column on small screens */
+    }
 }
