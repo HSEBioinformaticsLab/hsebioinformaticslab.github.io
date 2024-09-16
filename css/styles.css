@@ -34,6 +34,10 @@ nav a {
     text-decoration: none;
 }
 
+nav a.active {
+    text-decoration: underline;
+}
+
 main {
     padding: 20px;
 }
@@ -51,6 +55,11 @@ footer {
 /* Specific Sections */
 .intro {
     text-align: center;
+}
+
+.about p {
+    text-align: justify;
+    line-height: 1.6;
 }
 
 .news-feed article,
