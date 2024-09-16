@@ -76,3 +76,43 @@ footer {
 .datasets h3 {
     margin-top: 0;
 }
+
+/* Staff Page Styles */
+.staff-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.staff-member {
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+}
+
+.staff-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.staff-member h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #8ACE00;
+}
+
+.staff-member p {
+    margin: 5px 0;
+    text-align: left;
+}
+
+.staff-member a {
+    color: #1658DA;
+    text-decoration: none;
+}
+
+.staff-member a:hover {
+    text-decoration: underline;
+}
